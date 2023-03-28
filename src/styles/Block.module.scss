@@ -1,0 +1,45 @@
+.block{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 150px;
+    .container{
+        width: 80%;
+        margin: 0 auto;
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            .pokemon_img{
+                width: 500px;
+            }
+            .pokemon_additialinfo{
+                width: 400px;   
+                .pokemon_row{
+                    h1{
+                        font-weight: 700;
+                        font-size: 50px;
+                    }
+                    p{
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                    .pokemon_ability{
+                        display: flex;
+                        align-items: center;
+                        p{
+                            padding: 5px;
+                            margin: 0;
+                        }
+                    }
+                    .pokemon_types{
+                        display: flex;
+                        align-items: center;
+                        p{
+                            margin: 0;
+                            padding: 0 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

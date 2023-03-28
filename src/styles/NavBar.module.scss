@@ -1,0 +1,23 @@
+.navbar{
+    .container{
+        font-family: 'Roboto', sans-serif;
+        width: 90%;
+        margin: 0 auto;
+        .row{
+            padding: 15px 0 ;
+            .menu{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                .menu_li{
+                    cursor: pointer;
+                    list-style: none;
+                    padding:10px 15px 10px 0 ;
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
